@@ -14,6 +14,8 @@
 
 // Explanation: The largest element in array is 99
 
+
+// T.C O(n)
 function largestnums(nums){
     let greatest = nums[0];
     for (const num of nums){

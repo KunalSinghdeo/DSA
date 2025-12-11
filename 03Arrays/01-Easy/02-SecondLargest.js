@@ -19,6 +19,7 @@
 
 // The only value in nums is 10, so there is no second largest value, thus -1 is returned
 
+// T.C O(n)
 function secondLargest(nums){
     let greatest = nums[0];
     let secondGreatest = -1;
